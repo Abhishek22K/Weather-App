@@ -1,86 +1,46 @@
- Weather App
+# Getting Started with Create React App
 
-A simple weather application built with React and TypeScript, allowing users to check current weather conditions for different locations.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+## Available Scripts
 
-## Installation
+In the project directory, you can run:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
-   cd weather-app
-   ```
+### `npm start`
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-3. Get an API key from [OpenWeatherMap](https://openweathermap.org/api) (or another weather API provider).
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-4. Create a `.env` file in the project root and add your API key:
-   ```
-   REACT_APP_WEATHER_API_KEY=your_api_key_here
-   ```
+### `npm test`
 
-5. Start the development server:
-   ```bash
-   npm start
-   ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Usage
+### `npm run build`
 
-1. Open the app in your browser (it will usually run at `http://localhost:3000`).
-2. Enter the name of the city or location to get the weather details.
-3. The app will display the current weather conditions, temperature, humidity, and other details for the location.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Features
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Live Weather Data**: Fetches real-time weather information using the OpenWeatherMap API.
-- **Responsive Design**: Adapted for mobile, tablet, and desktop screens.
-- **Search by Location**: Users can input a city to get weather data.
-- **Weather Details**: Shows temperature, humidity, weather conditions, and more.
-  
-## Project Structure
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-A brief overview of the file structure for clarity:
+### `npm run eject`
 
-- `src/`: Contains all source files for the project.
-  - `App.css`: Styling for the app layout, such as the header, logo, and links【8†source】.
-  - `index.css`: Global styles such as fonts and body margins【9†source】.
-  - `index.tsx`: The entry point of the React app, where the app component is rendered.
-  - `react-app-env.d.ts`: TypeScript definitions to support React and environment types.
-  - `components/`: Contains reusable components like search bar, weather display, etc.
-  - `services/`: Includes API service files for fetching weather data.
-  - `utils/`: Contains utility functions, such as data formatting.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Technologies Used
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **React**: JavaScript library for building user interfaces.
-- **TypeScript**: Strongly typed JavaScript for enhanced code quality.
-- **OpenWeatherMap API**: To fetch real-time weather data.
-- **CSS**: For styling and layout.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Contributing
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-If you would like to contribute to this project, you can follow these steps:
+## Learn More
 
-1. Fork the repository.
-2. Create a new feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+To learn React, check out the [React documentation](https://reactjs.org/).
